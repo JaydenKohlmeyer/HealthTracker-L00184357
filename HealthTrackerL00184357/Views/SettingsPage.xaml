@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="HealthTrackerL00184357.Views.SettingsPage"
+    Title="Settings"
+    BackgroundColor="#F5F8F6">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="18">
+
+            <Grid ColumnDefinitions="Auto,*"
+              ColumnSpacing="10">
+
+                <Image
+                Source="settings.png"
+                WidthRequest="30"
+                HeightRequest="30"
+                VerticalOptions="Center" />
+
+                <Label
+                Grid.Column="1"
+                Text="Settings"
+                FontSize="30"
+                FontAttributes="Bold"
+                TextColor="#1B6B50"
+                VerticalOptions="Center" />
+
+            </Grid>
+
+            <Label Text="Personalise your HealthTrack experience."
+                   FontSize="14"
+                   TextColor="#52665B" />
+
+            <!-- Preferences -->
+            <Border Padding="18"
+                    BackgroundColor="White"
+                    Stroke="#E0E7E3">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="16" />
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="16">
+                    <Label Text="PREFERENCES"
+                           FontSize="15"
+                           FontAttributes="Bold"
+                           TextColor="#1B6B50" />
+
+                    <Grid ColumnDefinitions="*,Auto">
+                        <Label Text="Activity reminders"
+                               VerticalOptions="Center"
+                               TextColor="#263B31" />
+                        <Switch x:Name="RemindersSwitch"
+                                Grid.Column="1"
+                                OnColor="#1B6B50" />
+                    </Grid>
+
+                    <Grid ColumnDefinitions="*,Auto">
+                        <Label Text="Daily goal notifications"
+                               VerticalOptions="Center"
+                               TextColor="#263B31" />
+                        <Switch x:Name="NotificationsSwitch"
+                                Grid.Column="1"
+                                OnColor="#1B6B50" />
+                    </Grid>
+
+                    <Grid ColumnDefinitions="*,Auto">
+                        <Label Text="Dark mode"
+                           VerticalOptions="Center"
+                           TextColor="#263B31" />
+
+                        <Switch x:Name="DarkModeSwitch"
+                            Grid.Column="1"
+                            IsToggled="False"
+                            OnColor="#1B6B50" />
+                    </Grid>
+
+                    <Label Text="Measurement units"
+                           TextColor="#263B31" />
+
+                    <Picker x:Name="UnitsPicker"
+                            Title="Choose units">
+                        <Picker.Items>
+                            <x:String>Metric (kg, km, cm)</x:String>
+                            <x:String>Imperial (lb, miles, inches)</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                    <Button Text="Save Preferences"
+                            BackgroundColor="#1B6B50"
+                            TextColor="White"
+                            CornerRadius="12"
+                            Clicked="OnSaveSettingsClicked" />
+
+                    <Label x:Name="StatusLabel"
+                           Text=""
+                           TextColor="#1B6B50" />
+                </VerticalStackLayout>
+            </Border>
+
+
+            <Border Padding="18"
+                    BackgroundColor="White"
+                    Stroke="#E0E7E3">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="16" />
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="ABOUT HEALTHTRACK"
+                           FontSize="15"
+                           FontAttributes="Bold"
+                           TextColor="#1B6B50" />
+
+                    <Label Text="HealthTrack"
+                           FontSize="22"
+                           FontAttributes="Bold"
+                           TextColor="#263B31" />
+
+                    <Label Text="Version 1.0 — Prototype"
+                           FontSize="13"
+                           TextColor="#52665B" />
+
+                    <Label Text="A wellbeing tracking prototype designed to help users record activities, review measurements and monitor personal goals."
+                           FontSize="14"
+                           TextColor="#52665B" />
+
+                    <Label Text="This prototype uses example data and does not provide medical advice."
+                           FontSize="12"
+                           TextColor="#52665B" />
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

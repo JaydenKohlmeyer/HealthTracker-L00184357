@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="HealthTrackerL00184357.Views.StatisticsPage"
+    Title="Trends &amp; Statistics"
+    BackgroundColor="#F5F8F6">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="18">
+
+            <Label Text="Trends &amp; Statistics"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="#1B6B50" />
+
+            <Label Text="Review your progress over time."
+                   FontSize="14"
+                   TextColor="#52665B" />
+
+  
+            <Border Padding="18"
+                    BackgroundColor="White"
+                    Stroke="#E0E7E3">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="16" />
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="12">
+                    <Grid ColumnDefinitions="Auto,*"
+                  ColumnSpacing="8">
+
+                    <Image
+                    Source="graph.png"
+                    WidthRequest="20"
+                    HeightRequest="20"
+                    VerticalOptions="Center" />
+
+                        <Label
+                    Grid.Column="1"
+                    Text="THIS WEEK"
+                    FontSize="15"
+                    FontAttributes="Bold"
+                    TextColor="#1B6B50"
+                    VerticalOptions="Center" />
+
+                    </Grid>
+
+                    <Grid ColumnDefinitions="*,*"
+                          RowDefinitions="Auto,Auto"
+                          ColumnSpacing="12"
+                          RowSpacing="16">
+
+                        <VerticalStackLayout Grid.Row="0" Grid.Column="0"
+                                             Spacing="4">
+                            <Label Text="Active minutes"
+                                   FontSize="12"
+                                   TextColor="#52665B" />
+                            <Label Text="180"
+                                   FontSize="27"
+                                   FontAttributes="Bold"
+                                   TextColor="#1B6B50" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Row="0" Grid.Column="1"
+                                             Spacing="4">
+                            <Label Text="Workouts"
+                                   FontSize="12"
+                                   TextColor="#52665B" />
+                            <Label Text="4"
+                                   FontSize="27"
+                                   FontAttributes="Bold"
+                                   TextColor="#1B6B50" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Row="1" Grid.Column="0"
+                                             Spacing="4">
+                            <Label Text="Average steps"
+                                   FontSize="12"
+                                   TextColor="#52665B" />
+                            <Label Text="7,240"
+                                   FontSize="27"
+                                   FontAttributes="Bold"
+                                   TextColor="#1B6B50" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Row="1" Grid.Column="1"
+                                             Spacing="4">
+                            <Label Text="Goal progress"
+                                   FontSize="12"
+                                   TextColor="#52665B" />
+                            <Label Text="80%"
+                                   FontSize="27"
+                                   FontAttributes="Bold"
+                                   TextColor="#1B6B50" />
+                        </VerticalStackLayout>
+                    </Grid>
+                </VerticalStackLayout>
+            </Border>
+
+    
+            <Border Padding="18"
+                    BackgroundColor="White"
+                    Stroke="#E0E7E3">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="16" />
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="12">
+                    <Grid ColumnDefinitions="Auto,*"
+                      ColumnSpacing="8">
+
+                        <Image
+                        Source="steps.png"
+                        WidthRequest="20"
+                        HeightRequest="20"
+                        VerticalOptions="Center" />
+
+                                        <Label
+                        Grid.Column="1"
+                        Text="STEPS"
+                        FontSize="15"
+                        FontAttributes="Bold"
+                        TextColor="#1B6B50"
+                        VerticalOptions="Center" />
+
+                    </Grid>
+
+                    <Label Text="Example steps over seven days"
+                           FontSize="13"
+                           TextColor="#52665B" />
+
+                    <Grid ColumnDefinitions="*,*,*,*,*,*,*"
+                          ColumnSpacing="6"
+                          HeightRequest="150"
+                          VerticalOptions="End">
+
+                        <VerticalStackLayout Grid.Column="0"
+                                             VerticalOptions="End"
+                                             Spacing="5">
+                            <BoxView HeightRequest="55"
+                                     Color="#9BD4B5"
+                                     CornerRadius="4" />
+                            <Label Text="M"
+                                   FontSize="11"
+                                   HorizontalTextAlignment="Center" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Column="1"
+                                             VerticalOptions="End"
+                                             Spacing="5">
+                            <BoxView HeightRequest="85"
+                                     Color="#63B58B"
+                                     CornerRadius="4" />
+                            <Label Text="T"
+                                   FontSize="11"
+                                   HorizontalTextAlignment="Center" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Column="2"
+                                             VerticalOptions="End"
+                                             Spacing="5">
+                            <BoxView HeightRequest="65"
+                                     Color="#9BD4B5"
+                                     CornerRadius="4" />
+                            <Label Text="W"
+                                   FontSize="11"
+                                   HorizontalTextAlignment="Center" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Column="3"
+                                             VerticalOptions="End"
+                                             Spacing="5">
+                            <BoxView HeightRequest="110"
+                                     Color="#1B6B50"
+                                     CornerRadius="4" />
+                            <Label Text="T"
+                                   FontSize="11"
+                                   HorizontalTextAlignment="Center" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Column="4"
+                                             VerticalOptions="End"
+                                             Spacing="5">
+                            <BoxView HeightRequest="75"
+                                     Color="#63B58B"
+                                     CornerRadius="4" />
+                            <Label Text="F"
+                                   FontSize="11"
+                                   HorizontalTextAlignment="Center" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Column="5"
+                                             VerticalOptions="End"
+                                             Spacing="5">
+                            <BoxView HeightRequest="125"
+                                     Color="#1B6B50"
+                                     CornerRadius="4" />
+                            <Label Text="S"
+                                   FontSize="11"
+                                   HorizontalTextAlignment="Center" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Column="6"
+                                             VerticalOptions="End"
+                                             Spacing="5">
+                            <BoxView HeightRequest="90"
+                                     Color="#63B58B"
+                                     CornerRadius="4" />
+                            <Label Text="S"
+                                   FontSize="11"
+                                   HorizontalTextAlignment="Center" />
+                        </VerticalStackLayout>
+                    </Grid>
+
+                    <Label Text="Illustrative weekly activity — not actual recorded data."
+                           FontSize="11"
+                           TextColor="#52665B" />
+                </VerticalStackLayout>
+            </Border>
+
+   
+            <Border Padding="18"
+                    BackgroundColor="White"
+                    Stroke="#E0E7E3">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="16" />
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="12">
+                    <Grid ColumnDefinitions="Auto,*"
+                      ColumnSpacing="8">
+
+                        <Image
+                        Source="goal.png"
+                        WidthRequest="20"
+                        HeightRequest="20"
+                        VerticalOptions="Center" />
+
+                        <Label
+                        Grid.Column="1"
+                        Text="GOAL PROGRESS"
+                        FontSize="15"
+                        FontAttributes="Bold"
+                        TextColor="#1B6B50"
+                        VerticalOptions="Center" />
+
+                    </Grid>
+
+                    <Label Text="Weekly exercise goal"
+                           FontSize="14"
+                           TextColor="#52665B" />
+
+                    <ProgressBar Progress="0.8"
+                                 ProgressColor="#1B6B50" />
+
+                    <Label Text="120 of 150 minutes"
+                           FontSize="13"
+                           TextColor="#52665B" />
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

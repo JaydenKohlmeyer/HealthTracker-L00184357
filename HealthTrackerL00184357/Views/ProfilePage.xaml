@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="HealthTrackerL00184357.Views.ProfilePage"
+    Title="My Profile"
+    BackgroundColor="#F5F8F6">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="18">
+
+            <Label
+                Text="My Profile"
+                FontSize="30"
+                FontAttributes="Bold"
+                TextColor="#1B6B50" />
+
+            <Label
+                Text="Manage your personal details and wellbeing preferences."
+                FontSize="14"
+                TextColor="#52665B" />
+
+            <Border
+                Padding="18"
+                BackgroundColor="White"
+                Stroke="#E0E7E3">
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="16" />
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="12">
+
+                    <Label
+                        Text="PERSONAL DETAILS"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        TextColor="#1B6B50" />
+
+                    <Label Text="Full name" />
+                    <Entry
+                        x:Name="NameEntry"
+                        Placeholder="Enter your name" />
+
+                    <Label Text="Age" />
+                    <Entry
+                        x:Name="AgeEntry"
+                        Placeholder="Enter your age"
+                        Keyboard="Numeric" />
+
+                    <Label Text="Height (cm)" />
+                    <Entry
+                        x:Name="HeightEntry"
+                        Placeholder="Enter your height"
+                        Keyboard="Numeric" />
+
+                    <Label Text="Weight (kg)" />
+                    <Entry
+                        x:Name="WeightEntry"
+                        Placeholder="Enter your weight"
+                        Keyboard="Numeric" />
+
+                </VerticalStackLayout>
+            </Border>
+
+            <Border
+                Padding="18"
+                BackgroundColor="White"
+                Stroke="#E0E7E3">
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="16" />
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="12">
+
+                    <Label
+                        Text="WELLBEING PREFERENCES"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        TextColor="#1B6B50" />
+
+                    <Label Text="Preferred activity" />
+
+                    <Picker
+                        x:Name="ActivityPicker"
+                        Title="Select an activity">
+                        <Picker.Items>
+                            <x:String>Walking</x:String>
+                            <x:String>Running</x:String>
+                            <x:String>Cycling</x:String>
+                            <x:String>Swimming</x:String>
+                            <x:String>Gym workouts</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                </VerticalStackLayout>
+            </Border>
+
+            <Button
+                Text="Save Profile"
+                BackgroundColor="#1B6B50"
+                TextColor="White"
+                CornerRadius="12"
+                HeightRequest="52"
+                Clicked="OnSaveProfileClicked" />
+
+            <Label
+                x:Name="StatusLabel"
+                Text=""
+                TextColor="#1B6B50"
+                HorizontalTextAlignment="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="HealthTrackerL00184357.Views.ActivityPage"
+    Title="Exercise and Activity"
+    BackgroundColor="#F5F8F6">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="18">
+
+            <Label Text="Exercise and Activity"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="#1B6B50" />
+
+            <Label Text="Record your movement and review previous activities."
+                   FontSize="14"
+                   TextColor="#52665B" />
+
+            <Border Padding="18"
+                    BackgroundColor="White"
+                    Stroke="#E0E7E3">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="16" />
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="RECORD AN ACTIVITY"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="#1B6B50" />
+
+                    <Label Text="Activity type" />
+                    <Picker x:Name="ActivityPicker"
+                            Title="Choose an activity">
+                        <Picker.Items>
+                            <x:String>Walking</x:String>
+                            <x:String>Running</x:String>
+                            <x:String>Cycling</x:String>
+                            <x:String>Swimming</x:String>
+                            <x:String>Gym workout</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                    <Label Text="Duration (minutes)" />
+                    <Entry x:Name="DurationEntry"
+                           Placeholder="e.g. 30"
+                           Keyboard="Numeric" />
+
+                    <Label Text="Distance (km, optional)" />
+                    <Entry x:Name="DistanceEntry"
+                           Placeholder="e.g. 2.5"
+                           Keyboard="Numeric" />
+
+                    <Button Text="Save Activity"
+                            BackgroundColor="#1B6B50"
+                            TextColor="White"
+                            CornerRadius="12"
+                            Clicked="OnSaveActivityClicked" />
+
+                    <Label x:Name="StatusLabel"
+                           Text=""
+                           TextColor="#1B6B50" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Border Padding="18"
+                    BackgroundColor="White"
+                    Stroke="#E0E7E3">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="16" />
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="RECENT ACTIVITIES"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="#1B6B50" />
+
+                    <Label Text="Walking — 30 minutes"
+                           TextColor="#52665B" />
+                    <Label Text="Cycling — 45 minutes"
+                           TextColor="#52665B" />
+                    <Label Text="Running — 20 minutes"
+                           TextColor="#52665B" />
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

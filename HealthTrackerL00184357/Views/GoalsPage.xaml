@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="HealthTrackerL00184357.Views.GoalsPage"
+    Title="My Goals"
+    BackgroundColor="#F5F8F6">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="18">
+
+            <Grid ColumnDefinitions="Auto,*"
+              ColumnSpacing="10">
+
+                <Image
+                Source="goal.png"
+                WidthRequest="30"
+                HeightRequest="30"
+                VerticalOptions="Center" />
+
+                <Label
+                Grid.Column="1"
+                Text="My Goals"
+                FontSize="30"
+                FontAttributes="Bold"
+                TextColor="#1B6B50"
+                VerticalOptions="Center" />
+
+            </Grid>
+
+            <Label Text="Small steps lead to healthy habits."
+                   FontSize="14"
+                   TextColor="#52665B" />
+
+  
+            <Border Padding="18"
+                    BackgroundColor="White"
+                    Stroke="#E0E7E3">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="16" />
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="10">
+                    <Grid ColumnDefinitions="Auto,*"
+                      ColumnSpacing="10">
+
+                                            <Image
+                        Source="steps.png"
+                        WidthRequest="30"
+                        HeightRequest="30"
+                        VerticalOptions="Center" />
+
+                        <Label
+                        Grid.Column="1"
+                        Text="DAILY STEPS"
+                        FontSize="30"
+                        FontAttributes="Bold"
+                        TextColor="#1B6B50"
+                        VerticalOptions="Center" />
+
+                    </Grid>
+
+                    <Label Text="6,842 / 8,000 steps"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           TextColor="#263B31" />
+
+                    <ProgressBar Progress="0.855"
+                                 ProgressColor="#1B6B50" />
+
+                    <Label Text="85% of daily goal"
+                           FontSize="13"
+                           TextColor="#52665B" />
+                </VerticalStackLayout>
+            </Border>
+
+
+            <Border Padding="18"
+                    BackgroundColor="White"
+                    Stroke="#E0E7E3">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="16" />
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="10">
+                    <Grid ColumnDefinitions="Auto,*"
+                  ColumnSpacing="10">
+
+                     <Image
+                    Source="activity.png"
+                    WidthRequest="30"
+                    HeightRequest="30"
+                    VerticalOptions="Center" />
+
+                        <Label
+                    Grid.Column="1"
+                    Text="WEEKLY EXERCISE"
+                    FontSize="30"
+                    FontAttributes="Bold"
+                    TextColor="#1B6B50"
+                    VerticalOptions="Center" />
+
+                    </Grid>
+
+                    <Label Text="90 / 150 minutes"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           TextColor="#263B31" />
+
+                    <ProgressBar Progress="0.6"
+                                 ProgressColor="#1B6B50" />
+
+                    <Label Text="60% of weekly goal"
+                           FontSize="13"
+                           TextColor="#52665B" />
+                </VerticalStackLayout>
+            </Border>
+
+
+            <Border Padding="18"
+                    BackgroundColor="White"
+                    Stroke="#E0E7E3">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="16" />
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="10">
+                    <Grid ColumnDefinitions="Auto,*"
+                  ColumnSpacing="10">
+
+                    <Image
+                    Source="water.png"
+                    WidthRequest="30"
+                    HeightRequest="30"
+                    VerticalOptions="Center" />
+
+                        <Label
+                    Grid.Column="1"
+                    Text="DAILY WATER"
+                    FontSize="30"
+                    FontAttributes="Bold"
+                    TextColor="#1B6B50"
+                    VerticalOptions="Center" />
+
+                    </Grid>
+
+                    <Label Text="1,500 / 2,000 ml"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           TextColor="#263B31" />
+
+                    <ProgressBar Progress="0.75"
+                                 ProgressColor="#1B6B50" />
+
+                    <Label Text="75% of daily goal"
+                           FontSize="13"
+                           TextColor="#52665B" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Button Text="Edit My Goals"
+                    BackgroundColor="#1B6B50"
+                    TextColor="White"
+                    CornerRadius="12"
+                    HeightRequest="52"
+                    Clicked="OnEditGoalsClicked" />
+
+            <Label x:Name="StatusLabel"
+                   Text=""
+                   TextColor="#1B6B50"
+                   HorizontalTextAlignment="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

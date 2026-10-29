@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="HealthTrackerL00184357.MainPage"
+    Title="HealthTrack"
+    BackgroundColor="#F5F8F6">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="12">
+
+            <Label
+            Text="HealthTrack"
+            FontSize="28"
+            FontAttributes="Bold"
+            TextColor="#1B6B50" />  
+
+            <VerticalStackLayout Spacing="2">
+                <Label
+            Text="Welcome back, Jayden!"
+            FontSize="17"
+            FontAttributes="Bold"
+            TextColor="#334E43" />
+
+                <Label
+            Text="Your wellbeing at a glance"
+            FontSize="12"
+            TextColor="#52665B" />
+            </VerticalStackLayout>
+
+            <Border
+            Padding="12"
+            BackgroundColor="#E5F1EA"
+            StrokeThickness="0">
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="14" />
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="4">
+                    <Grid ColumnDefinitions="Auto,*"
+              ColumnSpacing="6">
+
+                        <Image
+                        Source="heart.png"
+                        WidthRequest="18"
+                        HeightRequest="18"
+                        VerticalOptions="Center" />
+
+                        <Label
+                        Grid.Column="1"
+                        Text="Your daily reminder"
+                        FontSize="14"
+                        FontAttributes="Bold"
+                        TextColor="#1B6B50"
+                        VerticalOptions="Center" />
+
+                    </Grid>
+
+
+                    <Label
+                    Text="Small steps can make a difference. Keep tracking your wellbeing!"
+                    FontSize="12"
+                    TextColor="#365C4A" />
+
+                </VerticalStackLayout>
+            </Border>
+
+
+            <Grid
+                ColumnDefinitions="*,*,*"
+                ColumnSpacing="8">
+
+                <Border
+                    Grid.Column="0"
+                    Padding="10"
+                    BackgroundColor="White"
+                    Stroke="#DCE8E1"
+                    StrokeThickness="1">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="14" />
+                    </Border.StrokeShape>
+
+                    <VerticalStackLayout Spacing="7">
+                        <Grid ColumnDefinitions="Auto,*"
+                          ColumnSpacing="5">
+
+                        <Image
+                            Source="steps.png"
+                            WidthRequest="16"
+                            HeightRequest="16"
+                            VerticalOptions="Center" />
+
+                            <Label
+                            Grid.Column="1"
+                            Text="STEPS"
+                            FontSize="10"
+                            FontAttributes="Bold"
+                            TextColor="#52665B"
+                            VerticalOptions="Center" />
+
+                        </Grid>
+
+                        <Label
+                            Text="6,842"
+                            FontSize="22"
+                            FontAttributes="Bold"
+                            TextColor="#1B6B50"
+                            LineBreakMode="NoWrap" />
+
+                        <Label
+                            Text="Goal: 8,000"
+                            FontSize="10"
+                            TextColor="#52665B" />
+
+                        <ProgressBar
+                            Progress="0.85525"
+                            ProgressColor="#2E8B68"
+                            BackgroundColor="#E3EBE6"
+                            HeightRequest="6" />
+
+                        <Label
+                            Text="85.5%"
+                            FontSize="10"
+                            TextColor="#52665B" />
+                    </VerticalStackLayout>
+                </Border>
+
+                <Border
+                    Grid.Column="1"
+                    Padding="10"
+                    BackgroundColor="White"
+                    Stroke="#DCE8E1"
+                    StrokeThickness="1">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="14" />
+                    </Border.StrokeShape>
+
+                    <VerticalStackLayout Spacing="7">
+                        <Grid ColumnDefinitions="Auto,*"
+                          ColumnSpacing="5">
+
+                            <Image
+                            Source="water.png"
+                            WidthRequest="16"
+                            HeightRequest="16"
+                            VerticalOptions="Center" />
+
+                            <Label
+                            Grid.Column="1"
+                            Text="WATER"
+                            FontSize="10"
+                            FontAttributes="Bold"
+                            TextColor="#52665B"
+                            VerticalOptions="Center" />
+
+                        </Grid>
+
+                        <Label
+                            Text="1.5 L"
+                            FontSize="22"
+                            FontAttributes="Bold"
+                            TextColor="#1B6B50"
+                            LineBreakMode="NoWrap" />
+
+                        <Label
+                            Text="Goal: 2 L"
+                            FontSize="10"
+                            TextColor="#52665B" />
+
+                        <ProgressBar
+                            Progress="0.75"
+                            ProgressColor="#4A90C2"
+                            BackgroundColor="#E3EBE6"
+                            HeightRequest="6" />
+
+                        <Label
+                            Text="75%"
+                            FontSize="10"
+                            TextColor="#52665B" />
+                    </VerticalStackLayout>
+                </Border>
+
+                <Border
+                    Grid.Column="2"
+                    Padding="10"
+                    BackgroundColor="White"
+                    Stroke="#DCE8E1"
+                    StrokeThickness="1">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="14" />
+                    </Border.StrokeShape>
+
+                    <VerticalStackLayout Spacing="7">
+                        <Grid ColumnDefinitions="Auto,*"
+                          ColumnSpacing="5">
+
+                            <Image
+                            Source="activity.png"
+                            WidthRequest="16"
+                            HeightRequest="16"
+                            VerticalOptions="Center" />
+
+                            <Label
+                            Grid.Column="1"
+                            Text="ACTIVITY"
+                            FontSize="10"
+                            FontAttributes="Bold"
+                            TextColor="#52665B"
+                            VerticalOptions="Center" />
+
+                        </Grid>
+
+                        <Label
+                            Text="4 of 5"
+                            FontSize="22"
+                            FontAttributes="Bold"
+                            TextColor="#1B6B50"
+                            LineBreakMode="NoWrap" />
+
+                        <Label
+                            Text="Weekly workouts"
+                            FontSize="10"
+                            TextColor="#52665B" />
+
+                        <ProgressBar
+                            Progress="0.8"
+                            ProgressColor="#2E8B68"
+                            BackgroundColor="#E3EBE6"
+                            HeightRequest="6" />
+
+                        <Label
+                            Text="80%"
+                            FontSize="10"
+                            TextColor="#52665B" />
+                    </VerticalStackLayout>
+                </Border>
+            </Grid>
+
+            <Border
+                Padding="12"
+                BackgroundColor="White"
+                Stroke="#DCE8E1"
+                StrokeThickness="1">
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="14" />
+                </Border.StrokeShape>
+
+                <Grid ColumnDefinitions="*,Auto">
+                    <VerticalStackLayout Spacing="3">
+                        <Label
+                            Text="LATEST WEIGHT"
+                            FontSize="10"
+                            FontAttributes="Bold"
+                            TextColor="#52665B" />
+
+                        <Label
+                            Text="76.2 kg"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            TextColor="#1B6B50" />
+                    </VerticalStackLayout>
+
+                    <Button
+                        Grid.Column="1"
+                        Text="View"
+                        FontSize="12"
+                        Padding="14,6"
+                        HeightRequest="36"
+                        BackgroundColor="#E5F1EA"
+                        TextColor="#1B6B50"
+                        CornerRadius="10"
+                        Clicked="OnMeasurementsClicked"
+                        VerticalOptions="Center" />
+                </Grid>
+            </Border>
+
+            <Border
+            Padding="12"
+            BackgroundColor="White"
+            Stroke="#DCE8E1"
+            StrokeThickness="1">
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="14" />
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="10">
+                    <Label
+                    Text="Quick actions"
+                    FontSize="16"
+                    FontAttributes="Bold"
+                    TextColor="#1B6B50" />
+
+                    <Grid
+                    ColumnDefinitions="*,*"
+                    ColumnSpacing="10">
+
+                        <Button
+                        Grid.Column="0"
+                        Text="+ Add Measurement"
+                        FontSize="12"
+                        Padding="6"
+                        HeightRequest="44"
+                        BackgroundColor="#E5F1EA"
+                        TextColor="#1B6B50"
+                        CornerRadius="10"
+                        Clicked="OnMeasurementsClicked" />
+
+                        <Button
+                        Grid.Column="1"
+                        Text="+ Log Activity"
+                        FontSize="12"
+                        Padding="6"
+                        HeightRequest="44"
+                        BackgroundColor="#E5F1EA"
+                        TextColor="#1B6B50"
+                        CornerRadius="10"
+                        Clicked="OnActivityClicked" />
+
+                    </Grid>
+                </VerticalStackLayout>
+            </Border>
+            
+            <VerticalStackLayout Spacing="3">
+                <Label
+                    Text="Explore HealthTrack"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    TextColor="#1B6B50" />
+
+                <Label
+                    Text="Choose a section"
+                    FontSize="12"
+                    TextColor="#52665B" />
+            </VerticalStackLayout>
+
+            <Grid
+                ColumnDefinitions="*,*,*"
+                RowDefinitions="Auto,Auto"
+                ColumnSpacing="10"
+                RowSpacing="10">
+
+                <Button
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    ImageSource="profile.png"
+                    Text="Profile"
+                    ContentLayout="Top,4"
+                    FontSize="12"
+                    HeightRequest="82"
+                    Padding="4"
+                    BackgroundColor="White"
+                    TextColor="#1B6B50"
+                    BorderColor="#DCE8E1"
+                    BorderWidth="1"
+                    CornerRadius="14"
+                    Clicked="OnProfileClicked" />
+
+                <Button
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    ImageSource="health.png"
+                    Text="Measures"
+                    ContentLayout="Top,4"
+                    FontSize="11"
+                    HeightRequest="82"
+                    Padding="4"
+                    BackgroundColor="White"
+                    TextColor="#1B6B50"
+                    BorderColor="#DCE8E1"
+                    BorderWidth="1"
+                    CornerRadius="14"
+                    Clicked="OnMeasurementsClicked" />
+
+                <Button
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    ImageSource="activity.png"
+                    Text="Activity"
+                    ContentLayout="Top,4"
+                    FontSize="12"
+                    HeightRequest="82"
+                    Padding="4"
+                    BackgroundColor="White"
+                    TextColor="#1B6B50"
+                    BorderColor="#DCE8E1"
+                    BorderWidth="1"
+                    CornerRadius="14"
+                    Clicked="OnActivityClicked" />
+
+                <Button
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    ImageSource="goal.png"
+                    Text="Goals"
+                    ContentLayout="Top,4"
+                    FontSize="12"
+                    HeightRequest="82"
+                    Padding="4"
+                    BackgroundColor="White"
+                    TextColor="#1B6B50"
+                    BorderColor="#DCE8E1"
+                    BorderWidth="1"
+                    CornerRadius="14"
+                    Clicked="OnGoalsClicked" />
+
+                <Button
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    ImageSource="graph.png"
+                    Text="Statistics"
+                    ContentLayout="Top,4"
+                    FontSize="11"
+                    HeightRequest="82"
+                    Padding="4"
+                    BackgroundColor="White"
+                    TextColor="#1B6B50"
+                    BorderColor="#DCE8E1"
+                    BorderWidth="1"
+                    CornerRadius="14"
+                    Clicked="OnStatisticsClicked" />
+
+                <Button
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    ImageSource="settings.png"
+                    Text="Settings"
+                    ContentLayout="Top,4"
+                    FontSize="12"
+                    HeightRequest="82"
+                    Padding="4"
+                    BackgroundColor="White"
+                    TextColor="#1B6B50"
+                    BorderColor="#DCE8E1"
+                    BorderWidth="1"
+                    CornerRadius="14"
+                    Clicked="OnSettingsClicked" />
+
+            </Grid>
+
+            <Label
+                Text="HealthTrack • Your personal wellbeing tracker"
+                FontSize="10"
+                HorizontalTextAlignment="Center"
+                TextColor="#52665B" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

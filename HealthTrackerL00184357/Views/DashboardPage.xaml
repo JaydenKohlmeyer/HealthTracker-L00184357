@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HealthTrackerL00184357.Views.DashboardPage"
+             Title="DashboardPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="HealthTrack"
+                   FontSize="28"
+                   FontAttributes="Bold"/>
+
+            <Label Text="Good Morning, Jayden"/>
+
+            <Border
+                Stroke="#E0E7E3"
+                StrokeThickness="1"
+                Padding="16"
+                BackgroundColor="White">
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="15"/>
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="Today's Steps"
+               FontSize="16"
+               TextColor="#52665B"/>
+
+                    <Label Text="6,842"
+               FontSize="30"
+               FontAttributes="Bold"
+               TextColor="#1B6B50"/>
+                </VerticalStackLayout>
+
+            </Border>
+
+
+            <Border
+                Stroke="#E0E7E3"
+                StrokeThickness="1"
+                Padding="16"
+                BackgroundColor="White">
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="15"/>
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="Latest Weight"
+               FontSize="16"
+               TextColor="#52665B"/>
+
+                    <Label Text="72.4 kg"
+               FontSize="30"
+               FontAttributes="Bold"
+               TextColor="#1B6B50"/>
+                </VerticalStackLayout>
+
+            </Border>
+
+            <Border
+            Stroke="#E0E7E3"
+            StrokeThickness="1"
+            Padding="16"
+            BackgroundColor="White">
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="15"/>
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="Weekly Goal"
+               FontSize="16"
+               TextColor="#52665B"/>
+
+                    <Label Text="4 of 5 workouts completed"
+               FontSize="30"
+               FontAttributes="Bold"
+               TextColor="#1B6B50"/>
+                </VerticalStackLayout>
+
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

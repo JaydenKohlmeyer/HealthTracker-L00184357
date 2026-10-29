@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="HealthTrackerL00184357.Views.MeasurementsPage"
+    Title="Health Measurements"
+    BackgroundColor="#F5F8F6">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="18">
+
+            <Label
+                Text="Health Measurements"
+                FontSize="28"
+                FontAttributes="Bold"
+                TextColor="#1B6B50" />
+
+            <Label
+                Text="Record and review your wellbeing measurements."
+                FontSize="14"
+                TextColor="#52665B" />
+
+            <Border Padding="18" BackgroundColor="White"
+                    Stroke="#E0E7E3">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="16" />
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="RECORD A MEASUREMENT"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="#1B6B50" />
+
+                    <Label Text="Weight (kg)" />
+                    <Entry x:Name="WeightEntry"
+                           Placeholder="e.g. 65"
+                           Keyboard="Numeric" />
+
+                    <Label Text="Resting heart rate (bpm)" />
+                    <Entry x:Name="HeartRateEntry"
+                           Placeholder="e.g. 72"
+                           Keyboard="Numeric" />
+
+                    <Label Text="Water intake (ml)" />
+                    <Entry x:Name="WaterEntry"
+                           Placeholder="e.g. 500"
+                           Keyboard="Numeric" />
+
+                    <Button Text="Save Measurement"
+                            BackgroundColor="#1B6B50"
+                            TextColor="White"
+                            CornerRadius="12"
+                            Clicked="OnSaveMeasurementClicked" />
+
+                    <Label x:Name="StatusLabel"
+                           Text=""
+                           TextColor="#1B6B50" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Border Padding="18" BackgroundColor="White"
+                    Stroke="#E0E7E3">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="16" />
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="RECENT MEASUREMENTS"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="#1B6B50" />
+
+                    <Label Text="Weight: Sample value"
+                           TextColor="#52665B" />
+                    <Label Text="Heart rate: Sample value"
+                           TextColor="#52665B" />
+                    <Label Text="Water intake: Sample value"
+                           TextColor="#52665B" />
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

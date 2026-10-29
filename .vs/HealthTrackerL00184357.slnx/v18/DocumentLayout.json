@@ -1,0 +1,387 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\views\\goalspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\views\\goalspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\views\\statisticspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\views\\statisticspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\views\\measurementspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\views\\measurementspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\views\\statisticspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\views\\statisticspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\views\\measurementspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\views\\measurementspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\views\\goalspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\views\\goalspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\views\\activitypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\views\\activitypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\resources\\images\\activity.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\resources\\images\\activity.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\views\\activitypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\views\\activitypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|c:\\users\\jayde\\onedrive - atlantic tu\\year 4\\crossplatformdev\\healthtrackerl00184357\\healthtrackerl00184357\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E985DAC-D3BD-2E11-CC4A-73AC6AE0BC4A}|HealthTrackerL00184357\\HealthTrackerL00184357.csproj|solutionrelative:healthtrackerl00184357\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.118\\tools\\Xamarin.Android.Common.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jayde\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.110\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StatisticsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\StatisticsPage.xaml",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\Views\\StatisticsPage.xaml",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\StatisticsPage.xaml",
+              "RelativeToolTip": "HealthTrackerL00184357\\Views\\StatisticsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-21T12:26:47.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SettingsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\SettingsPage.xaml",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\Views\\SettingsPage.xaml",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\SettingsPage.xaml",
+              "RelativeToolTip": "HealthTrackerL00184357\\Views\\SettingsPage.xaml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-21T10:28:35.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\MainPage.xaml.cs",
+              "RelativeToolTip": "HealthTrackerL00184357\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:54:41.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\Views\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\ProfilePage.xaml",
+              "RelativeToolTip": "HealthTrackerL00184357\\Views\\ProfilePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-21T10:27:35.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\MauiProgram.cs",
+              "RelativeToolTip": "HealthTrackerL00184357\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T15:42:14.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\MainPage.xaml",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\MainPage.xaml",
+              "RelativeToolTip": "HealthTrackerL00184357\\MainPage.xaml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAGAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-19T15:44:14.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MeasurementsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\MeasurementsPage.xaml.cs",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\Views\\MeasurementsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\MeasurementsPage.xaml.cs",
+              "RelativeToolTip": "HealthTrackerL00184357\\Views\\MeasurementsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T11:33:52.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SettingsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\SettingsPage.xaml.cs",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\Views\\SettingsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\SettingsPage.xaml.cs",
+              "RelativeToolTip": "HealthTrackerL00184357\\Views\\SettingsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T14:12:21.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StatisticsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\StatisticsPage.xaml.cs",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\Views\\StatisticsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\StatisticsPage.xaml.cs",
+              "RelativeToolTip": "HealthTrackerL00184357\\Views\\StatisticsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T12:27:36.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GoalsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\GoalsPage.xaml.cs",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\Views\\GoalsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\GoalsPage.xaml.cs",
+              "RelativeToolTip": "HealthTrackerL00184357\\Views\\GoalsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T11:12:14.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\DashboardPage.xaml.cs",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\Views\\DashboardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\DashboardPage.xaml.cs",
+              "RelativeToolTip": "HealthTrackerL00184357\\Views\\DashboardPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T11:12:48.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MeasurementsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\MeasurementsPage.xaml",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\Views\\MeasurementsPage.xaml",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\MeasurementsPage.xaml",
+              "RelativeToolTip": "HealthTrackerL00184357\\Views\\MeasurementsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-21T10:27:50.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GoalsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\GoalsPage.xaml",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\Views\\GoalsPage.xaml",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\GoalsPage.xaml",
+              "RelativeToolTip": "HealthTrackerL00184357\\Views\\GoalsPage.xaml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-21T10:28:10.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\Views\\DashboardPage.xaml",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\DashboardPage.xaml",
+              "RelativeToolTip": "HealthTrackerL00184357\\Views\\DashboardPage.xaml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-21T10:27:17.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ActivityPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\ActivityPage.xaml",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\Views\\ActivityPage.xaml",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\ActivityPage.xaml",
+              "RelativeToolTip": "HealthTrackerL00184357\\Views\\ActivityPage.xaml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-21T10:28:02.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "activity.png -  [English (United Kingdom)] - PNG [32x32, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Resources\\Images\\activity.png",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\Resources\\Images\\activity.png",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Resources\\Images\\activity.png -  [English (United Kingdom)] - PNG [32x32, 32 bit, PNG]",
+              "RelativeToolTip": "HealthTrackerL00184357\\Resources\\Images\\activity.png -  [English (United Kingdom)] - PNG [32x32, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-28T16:31:27.138Z",
+              "EditorCaption": " -  [English (United Kingdom)] - PNG [32x32, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\AppShell.xaml",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\AppShell.xaml",
+              "RelativeToolTip": "HealthTrackerL00184357\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-21T10:28:59.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\App.xaml",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\App.xaml",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\App.xaml",
+              "RelativeToolTip": "HealthTrackerL00184357\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-21T21:12:18.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\Views\\ProfilePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "HealthTrackerL00184357\\Views\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:59:16.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ActivityPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\ActivityPage.xaml.cs",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\Views\\ActivityPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\Views\\ActivityPage.xaml.cs",
+              "RelativeToolTip": "HealthTrackerL00184357\\Views\\ActivityPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T11:44:07.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Xamarin.Android.Common.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.118\\tools\\Xamarin.Android.Common.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.118\\tools\\Xamarin.Android.Common.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.118\\tools\\Xamarin.Android.Common.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.118\\tools\\Xamarin.Android.Common.targets",
+              "ViewState": "AgIAACkLAAAAAAAAAIAwwEkLAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-10-21T14:14:42.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "HealthTrackerL00184357\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Atlantic TU\\Year 4\\CrossPlatformDev\\HealthTrackerL00184357\\HealthTrackerL00184357\\AppShell.xaml.cs",
+              "RelativeToolTip": "HealthTrackerL00184357\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:29:31.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\Jayde\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.110\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.110\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\Jayde\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.110\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.110\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AgIAAJwDAAAAAAAAAIAwwPMDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-10-21T12:32:08.186Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
